@@ -24,7 +24,7 @@ print(novo_preco)
 
 ''''Quarta'''
 print("\nQuarta Questão: ")
-resultado = 10 + (5 * 2)
+resultado = 10 + 5 * 2
 print(f'Resultado da expressão: {resultado}')
 
 '''Quinta'''
@@ -97,4 +97,4 @@ y2 = int(input('Digite o valor de Y2: '))
 
 distancia = ((x2 - x1)**2 + (y2 - y1)**2)
 distancia = distancia ** 0.5
-print(distancia)
+print(f' A distância entre os ponto é: {distancia:.2f}')
